@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "d1fc644c-0abe-429e-b6f8-09dd74985c33",
+		"name": "M4A2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23357914"
+	},
+	"item": [
+		{
+			"name": "New loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerName\": \"Ana De Armas\",\r\n    \"phoneNumber\": 4803329871,\r\n    \"address\":\"1711 S. Jentilly Lane\",\r\n    \"loanAmount\":40000,\r\n    \"interest\": 4,\r\n    \"loanTermYears\": 2,\r\n    \"loanType\": \"Education\",\r\n    \"description\": \"Education loan for ASU\",\r\n    \"createdDate\": \"10/01/2022\",\r\n    \"insertedDate\": \"10/05/2022\",\r\n  \r\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/loan/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"loan",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
